@@ -25,12 +25,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "Argentina/Argentina/node_modules/bootstrap/dist/css/bootstrap.css"
+              "src/styles.css"
+            
             ],
             "scripts": [
-              "Argentina/Argentina/node_modules/bootstrap/dist/js/bootstrap.js"
-            ]
+          ]
           },
           "configurations": {
             "production": {
