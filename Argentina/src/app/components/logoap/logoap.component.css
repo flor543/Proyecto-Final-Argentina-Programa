@@ -1,3 +1,6 @@
-#logoap{
+#app-logoap{
+    float: left;
+    margin-left: 10px;
     width: 100px;
+    height: 70px;
 }
