@@ -1,7 +1,3 @@
-.row{
-    margin: 0% ;
-
-}
 div{
     background-color:  #80bdff; 
     text-align: center;
@@ -31,6 +27,6 @@ div{
         box-shadow: 3px 3px 3px gray;
         width: 30%;
         left: 33%;
-        top: 630px
+        top: 950px
     }
 }
