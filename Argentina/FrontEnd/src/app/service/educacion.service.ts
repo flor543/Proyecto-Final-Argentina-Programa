@@ -8,6 +8,7 @@ import { Educacion } from '../model/educacion';
 })
 export class EducacionService {
   URL='https://bkdpruebah.herokuapp.com/educacion/';
+  
 
   constructor(private httpClient: HttpClient) { }
 

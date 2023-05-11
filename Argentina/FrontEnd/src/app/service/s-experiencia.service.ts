@@ -7,7 +7,8 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL = 'https://bkdpruebah.herokuapp.com/explab/'
+  expURL = 'https://bkdpruebah.herokuapp.com/explab/';
+  
 
   
 

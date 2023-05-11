@@ -12,10 +12,9 @@ export class NewSkillComponent implements OnInit{
   nombre: string;
   porcentaje: number;
 
+  constructor(private skillS: SkillService, private router: Router) { }
 
-  constructor(private skillS: SkillService, private router: Router) {}
-
-  ngOnInit(): void {  
+  ngOnInit(): void {
   }
 
   onCreate(): void{
@@ -31,4 +30,3 @@ export class NewSkillComponent implements OnInit{
     )
   }
 }
-

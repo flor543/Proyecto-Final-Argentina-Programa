@@ -7,11 +7,11 @@ import { Skill } from '../model/skill';
   providedIn: 'root'
 })
 export class SkillService {
-  URL = 'https://bkdpruebah.herokuapp.com/'
+  URL = 'https://bkdpruebah.herokuapp.com/skill/';
+  
   constructor(private httpClient: HttpClient) { }
-
   public lista(): Observable<Skill[]>{
-    return this.httpClient.get<Skill[]>(this.URL + 'lista')
+    return this.httpClient.get<Skill[]>(this.URL + 'lista');
   }
 
   public detail(id: number): Observable<Skill>{
@@ -30,4 +30,3 @@ export class SkillService {
     return this.httpClient.delete(this.URL + `delete/${id}`);
   }
 }
-
